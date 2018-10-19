@@ -45,17 +45,16 @@ sudo apt install gcc-6
 sudo apt install g++-6
 ```
 
-# Download one of the "runfile (local)" installation packages from cuda toolkit archive 
+### Download one of the "runfile (local)" installation packages from cuda toolkit archive 
 
 https://developer.nvidia.com/cuda-toolkit-archive
 
+![cuda 9.2](images/cuda9_2.png)
 https://developer.nvidia.com/cuda-92-download-archive
 
-![cuda 9.2](images/cuda9_2.png)
-
-https://developer.nvidia.com/cuda-90-download-archive
 
 ![cuda 9.0](images/cuda9_0.png)
+https://developer.nvidia.com/cuda-90-download-archive
 
 ### Make the download file executable
 ```
