@@ -58,13 +58,17 @@ https://developer.nvidia.com/cuda-90-download-archive
 ![cuda 9.0](images/cuda9_0.png)
 
 ### Make the download file executable
+```
 chmod +x cuda_9.0.176_384.81_linux.run 
 sudo ./cuda_9.0.176_384.81_linux.run --override
+```
 
 ### Answer following questions while installation begin
 - You are attempting to install on an unsupported configuration. Do you wish to continue? y
 - Install NVIDIA Accelerated Graphics Driver for Linux-x86_64 384.81? n
 - Install the CUDA 9.0 Toolkit? y
+
+Note: I also would so 'N' for cuda symbolic link, if you plan to use multiple version of cuda and cuDNN
 
 ### Set up symlinks for gcc/g++
 ```
@@ -113,6 +117,8 @@ sudo cp -P cuda/lib64/libcudnn* /usr/local/cuda-9.0/lib64/
 sudo chmod a+r /usr/local/cuda-9.0/lib64/libcudnn*
 ```
 
-# Finally, to verify the installation, check
+### Finally, to verify the installation, check
+
 nvidia-smi
+
 nvcc -V 
