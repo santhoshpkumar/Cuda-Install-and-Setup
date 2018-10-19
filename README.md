@@ -23,7 +23,7 @@ sudo add-apt-repository ppa:graphics-drivers/ppa
 ```
 sudo apt install nvidia-410
 ```
-Note: only you add the PPA, the latest driver should already be listed by default
+Note: once you add the PPA, the latest driver should already be listed by default
 
 
 # Install other import packages
