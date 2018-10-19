@@ -114,11 +114,20 @@ tar -xzvf ${CUDNN_TAR_FILE}
 ```
 
 ### Copy the following files into the cuda toolkit directory.
+
+cuda 9.0
 ```
 sudo cp -P cuda/include/cudnn.h /usr/local/cuda-9.0/include
 sudo cp -P cuda/lib64/libcudnn* /usr/local/cuda-9.0/lib64/
-sudo chmod a+r /usr/local/cuda-9.0/lib64/libcudnn*
+sudo chmod a+r /usr/local/cuda-9.0/include/cudnn.h /usr/local/cuda-9.0/lib64/libcudnn*
 ```
+cuda 9.2
+```
+sudo cp -P cuda/include/cudnn.h /usr/local/cuda-9.2/include
+sudo cp -P cuda/lib64/libcudnn* /usr/local/cuda-9.2/lib64/
+sudo chmod a+r /usr/local/cuda-9.2/include/cudnn.h /usr/local/cuda-9.2/lib64/libcudnn*
+```
+
 
 ### Finally, to verify the installation, check
 
