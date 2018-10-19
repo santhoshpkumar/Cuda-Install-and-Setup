@@ -106,7 +106,7 @@ then download cuDNN v7.3 form https://developer.nvidia.com/cudnn
 
 Use the link for Linux
 
-![cuDNN download](cuDNN.png)
+![cuDNN download](./images/cuDNN.png)
 
 ```
 CUDNN_TAR_FILE=<downloaded file>
