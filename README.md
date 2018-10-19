@@ -7,7 +7,7 @@
 - download and install the nvidia cuda toolkit and cudnn
 - setup environmental variables
 - verify the installation
-###
+
 
 ### Verify your gpu is cuda enable check
 
