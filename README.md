@@ -1,6 +1,6 @@
 # Install cuda and cuDNN on ubuntu 18.04
 
-## This contains step by step instructions to install cuda v9.0 and cudnn 7.2 (or 9.2 and 7.3) in ubuntu 18.04
+## This contains step by step instructions to install cuda v9.0 (or 9.2) and cudnn 7.3 in ubuntu 18.04
 
 ### Steps 
 - verify the system has a cuda-capable gpu
@@ -100,12 +100,16 @@ To use this path just type on the terminal
 source cuda90-env
 ```
 
-### Install cuDNN v7.2 (for 9.0) or v7.3 (for 9.2)
+### Install cuDNN v7.3 
 In order to download cuDNN you have to be registered here https://developer.nvidia.com/developer-program/signup
-then download cuDNN v7.2 (v7.3) form https://developer.nvidia.com/cudnn
+then download cuDNN v7.3 form https://developer.nvidia.com/cudnn
+
+Use the link for Linux
+
+![cuDNN download](cuDNN.png)
+
 ```
-CUDNN_TAR_FILE="cudnn-9.0-linux-x64-v7.2.1.38"
-wget https://developer.nvidia.com/compute/machine-learning/cudnn/secure/v7.2.1/prod/9.0_20180806/${CUDNN_TAR_FILE}
+CUDNN_TAR_FILE=<downloaded file>
 tar -xzvf ${CUDNN_TAR_FILE}
 ```
 
